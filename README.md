@@ -4,11 +4,12 @@
 
 ![Build status](https://img.shields.io/travis/msvbg/proxy-forwarder.svg)
 
+`proxy-forwarder` implements all traps listed at [MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Proxy) for an object, forwarding every trappable operation to a target object. Requires ES2015 Proxy support. In node, that means passing `--harmony_proxies` as a command line argument.
+
+## Install
 ```
 npm i --save proxy-forwarder
 ```
-
-`proxy-forwarder` implements all traps listed at [MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Proxy) for an object, forwarding every trappable operation to a target object. Requires ES2015 Proxy support. In node, that means passing `--harmony_proxies` as a command line argument.
 
 ## Example
 ```js
